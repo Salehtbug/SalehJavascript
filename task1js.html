@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 
+    <div id="students" style="font-size: 30px;" ></div>
+
+    <h2>JavaScript For Loop</h2>
+
+    <h2>JavaScript For In Loop</h2>
+<p>The for in statement loops through the properties of an object:</p>
+
+<h1>JavaScript Arrays</h1>
+<h2>For In Loops</h2>
+<p>The for in statement can loops over array values:</p>
+
+
+<p id="demo"></p> -->
+   
+    
+</body>
+
+<script>
+    // var name = "saleh"
+    // name = "ahmad"
+    // console.log(name)
+    // -----------------------------------------------------------
+    // var st = "saleh"
+    // var st2 = "anas"
+    // var st3 = "suhaib"
+    // var st4 = "ammar"
+    // var st5 = "habib"
+    // -----------------------------------------------------------
+
+    // document.getElementById("student").innerHTML = st
+    // document.getElementById("student").innerHTML += st2
+    // document.getElementById("student").innerHTML += st3
+    // document.getElementById("student").innerHTML += st4
+    // document.getElementById("student").innerHTML += st5
+
+    // -----------------------------------------------------------
+
+
+    // var students = ["saleh",  "anas", "bilal", "firas", "sami"]
+    // document.getElementById("students").innerHTML = students
+    // students.push("salam")
+    // students.push("rami") // to add in the array at the last of it
+    // students.pop() // delete the last value in the end of array
+    // console.log(students)
+    // students[1] = "habib" // to replace the value by index 
+    // students.splice(2,1 ,"ammar") // to delete value by index and make to replace the value based on index 
+    // students.splice(2,0 ,"ammar") // same the above but without deleted any value 
+
+
+    // console.log(students)
+    // -----------------------------------------------------------
+     
+    // var str = ""
+    // var arr = [40, 30 , 20, 10]
+    // console.log( typeof arr)
+    // document.write(arr.length)
+    // var isArr = Array.isArray(arr)
+    // console.log(isArr)
+    // console.log( typeof Array.isArray(str)) // to give boolen result if that is true or false 
+    // console.log(arr.includes(40)) // (includes) it an fun to check if the value is already Existing in the arry or not 
+    // console.log(arr.indexOf(10)) // to get the index of the value and give me what the index for it 
+     
+    // -----------------------------------------------------------
+
+
+//     let count = 0; 
+
+
+// while (count < 10) {
+
+//   if (count === 3) {
+//     console.log("Milestone 1: You have completed 3 tasks! Keep going!");
+//     count++; 
+//     continue; 
+//   }
+
+
+//   if (count === 5) {
+//     console.log("Milestone 2: 5 tasks completed! You're halfway there!");
+//     count++; 
+//     continue; 
+//   }
+
+ 
+//   if (count === 8) {
+//     console.log("Milestone 3: 8 tasks completed! Almost there!");
+//     break; 
+//   }
+
+
+//   console.log("Task number " + (count + 1) + " completed!");
+
+//   count++; 
+// }
+
+    // -----------------------------------------------------------
+
+
+// const cars = ["BMW", "Volvo", "Saab", "Ford"];
+// let i = 0;
+// let len = cars.length;
+// let text = "";
+
+// for (; i < len; i++) {
+//   text += cars[i] + "<br>";
+// }
+
+// document.getElementById("demo").innerHTML = text;
+ 
+    // -----------------------------------------------------------
+
+
+
+// const person = {fname:"John", lname:"Doe", age:25}; 
+
+// let txt = "";
+// for (let x in person) {
+//   txt += person[x] + " ";
+// }
+
+// document.getElementById("demo").innerHTML = txt;
+    // -----------------------------------------------------------
+//     const numbers = [45, 4, 9, 16, 25];
+
+// let txt = "";
+// for (let x in numbers) {
+//   txt += numbers[x] + "<br>"; 
+// }
+
+// document.getElementById("demo").innerHTML = txt;
+ // ----------------------------------------------------------------------------------
+
+ let x = 250; 
+let zakatPercentage = 2.5; 
+let zakatValue = (x * zakatPercentage) / 100;
+if(x >= 4000)
+console.log("The Zakat value for " + x + " is: " + zakatValue);
+
+
+
+// task 1
+var arr1 = [ 1,7 , 9 , 4 ,  5, ] 
+
+ ["Str" , "alex","moh" ,
+
+ "the","fox", "over" , "lazy" , "dog"] 
+ // -----------------------------------------------------------
+ //task2
+ // What the index of "Banana","Tomato"
+ console.log("task1*********************************")
+var fruits=["Tomato","Banana","Watermelon"] // index is [0] , [1]
+console.log(fruits.indexOf("Tomato"))
+console.log(fruits.indexOf("Banana"))
+// -----------------------------------------------------------
+// task 3
+// Create an array represents your:
+// 1- Favorite Food (2)
+// 2- Favorite Sport (3)
+// 3- Favorite Movie (2)
+console.log("task3*********************************")
+var Food = ["Sbanegh", "mlokheh" ,]
+var Sport = ["Football", "BasketBall" , "padel"]
+var Movie = ["Ted" , "Brother"]
+console.log(Food)
+console.log(Sport)
+console.log(Movie)
+// -----------------------------------------------------------
+// task 4 
+/*
+Create a Variable to return the first element in an array 
+Ex: firstOfArray([1,4,5]) => 1
+Ex: firstOfArray(["t","u","g","x"]) => "t"
+*/
+console.log("task4*********************************")
+let array = [1 , 4 , 5];
+let firstOfArray = array[0];
+console.log(firstOfArray); 
+
+let Secarray = ["t" , "u" , "g" , "x"]
+let secendarray  = Secarray[0]
+console.log(secendarray);
+// -----------------------------------------------------------
+// task 5 
+console.log("task5*********************************")
+let arr = [1 , 4 , 5];
+let lasttOfArr = array[2];
+console.log(lasttOfArr); 
+
+let Secarr = ["t" , "u" , "g" , "x"]
+let secendarr = Secarray[3]
+console.log(secendarr);
+// -----------------------------------------------------------
+// task 6
+// Using console make this array to be like this one (push, unshift, shift, pop)
+
+// var array = [0,5,7,9]
+// => [1,3,4,6,8,9,10]
+console.log("task6*********************************")
+var arraymeth = [0,5,7,9]
+arraymeth.push(10)
+arraymeth.push(11)
+arraymeth.pop()
+console.log(arraymeth)
+arraymeth.shift()
+console.log(arraymeth)
+arraymeth.unshift(0)
+arraymeth.shift()
+arraymeth.shift()
+arraymeth.shift()
+arraymeth.pop()
+arraymeth.pop()
+arraymeth.push(1)
+arraymeth.push(3)
+arraymeth.push(4)
+arraymeth.push(6)
+arraymeth.push(8)
+arraymeth.push(9)
+arraymeth.push(10)
+console.log(arraymeth)
+// -----------------------------------------------------------
+// task 7
+/*
+Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
+
+var array2 = [5,9,-7,3.5]
+*/
+console.log("task7*********************************")
+var array2 = [5,9,-7,3.5]
+array2.push(10)
+array2.unshift(2)
+console.log(array2)
+array2.shift()
+console.log(array2)
+array2.pop()
+console.log(array2)
+// -----------------------------------------------------------
+// task 8
+/*
+8.
+Write a JavaScript program to sort the items of an array.
+Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+*/
+console.log("task8*********************************")
+var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+arr1.sort()
+console.log(arr1)
+// -----------------------------------------------------------
+// task 9
+// Write a JavaScript function that returns rate as text
+// less than 50 return ==> Fail
+// equal or between 50 and 59 ===> E
+// equal or between 60 and 69 ===> D
+// equal or between 70 and 79 ===> C
+// equal or between 80 and 89 ===> B
+// equal or between 90 and 100 ===> A
+console.log("task9*********************************")
+function grade(rate) {
+    if (rate < 50) {
+        return 'Fail';
+    } else if (rate >= 50 && rate <= 59) {
+        return 'E';
+    } else if (rate >= 60 && rate <= 69) {
+        return 'D';
+    } else if (rate >= 70 && rate <= 79) {
+        return 'C';
+    } else if (rate >= 80 && rate <= 89) {
+        return 'B';
+    } else if (rate >= 90 && rate <= 100) {
+        return 'A';
+    } else {
+        return 'Invalid rate';
+    }
+  
+ 
+}
+console.log( grade(60))
+
+// Write a JS code to print a pattern using for loop
+
+//    1 
+//    1 2 
+//    1 2 3 
+//    1 2 3 4 
+//    1 2 3 4 5 
+//    1 2 3 4 5 6 
+//    1 2 3 4 5 6 7 
+//    1 2 3 4 5 6 7 8
+console.log("task10*********************************")
+for ( i=1 ; i <= 8 ; i++ ) {
+    let col = "";
+for(j=1 ; j <= i ; j++ ) {
+    col += j  + ""; 
+}
+
+console.log(col)
+
+}
+
+
+
+
+
+
+
+</script>
+
+</html>
