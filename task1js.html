@@ -139,7 +139,7 @@
 // document.getElementById("demo").innerHTML = txt;
  // ----------------------------------------------------------------------------------
 
- let x = 250; 
+ let x = 5000; 
 let zakatPercentage = 2.5; 
 let zakatValue = (x * zakatPercentage) / 100;
 if(x >= 4000)
@@ -251,9 +251,13 @@ Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 Sample Output : -4,-3,1,2,3,5,6,7,8
 */
 console.log("task8*********************************")
-var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
-arr1.sort()
-console.log(arr1)
+var arr1 = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
+arr1.sort(function(a, b) {
+    return a - b;
+});
+
+console.log(arr1);
+
 // -----------------------------------------------------------
 // task 9
 // Write a JavaScript function that returns rate as text
@@ -305,10 +309,6 @@ for(j=1 ; j <= i ; j++ ) {
 console.log(col)
 
 }
-
-
-
-
 
 
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <style>
+      #header{
+        display: inline-block;
+        padding: 20px; 
+        margin: 20;
+        width: auto;
+        height: auto;
+      }
+      #Task1{
+        display: inline-block;
+        padding: 50px;
+      }
+    </style>
+</head>
+<body>
+
+
+  <h1 id="Task1"
+   onmouseover="document.getElementById('Task1').innerText='Hello World!'"
+   onmouseout="document.getElementById('Task1').innerText='Can I Help You?'" style="background-color: yellow;">
+    Can I Help You?
+  </h1>
+
+
+
+    <div>
+      <select id="famliy1" onclick="Task2()">
+        <option value="Times new Roman">Times new Roman</option>
+        <option value="Fantsy">Fantsy</option>
+        <option value="Arial">Arial</option>
+      </select>
+      <select id="fontsize" onclick="Task2()">
+        <option value="20px">20px</option>
+        <option value="50px">50px</option>
+      </select>
+  
+  
+      <input type="checkbox" id="Boldstyle" onclick="Task2()">
+      <label>Bold</label>
+      <input type="checkbox" id="italicstyle" onclick="Task2()">
+      <label>italic</label>
+      <input type="checkbox" id="underlinestyle" onclick="Task2()">
+      <label>Underline</label>
+    </div>
+    <h1 id="header" style="border: 1px solid;">the quick brown fox over the lazy dog</h1>
+
+    
+</body>
+<script src="task2.js"></script>
+</html>
