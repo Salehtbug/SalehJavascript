@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Display the form in one card using local Storage</h1>
+    <div id="birthCertificate">
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+
+      <label for="pass">Password</label>
+      <input type="text" id="pass" />
+
+      <label for="age">Age</label>
+      <input type="text" id="age" />
+
+      <label for="birth">Birth Date</label>
+      <input type="date" id="birth" />
+
+      <label for="upload">Upload</label>
+      <input type="file" id="upload" />
+
+      <label for="des">Description</label>
+      <input type="text" id="des" />
+
+      <label for="major">Major</label>
+      <input type="text" id="major" />
+
+      <label for="sib">Sibling</label>
+      <input type="text" id="sib" />
+
+      <label for="dess">Description of Sibling</label>
+      <input type="text" id="dess" />
+
+      <button onclick="sitdata()">sit Data</button>
+    <button onclick="readdata()">read Data</button>
+
+    </div>
+
+    
+    <div id="outputContainer">
+      <p id="outputName">Name: </p>
+      <p id="outputPassword">Password: </p>
+      <p id="outputAge">Age: </p>
+      <p id="outputBirth">Birth Date: </p>
+      <p id="outputUpload">Uploaded File: </p>
+      <p id="outputDescription">Description: </p>
+      <p id="outputMajor">Major: </p>
+      <p id="outputSibling">Sibling: </p>
+      <p id="outputSiblingDescription">Sibling Description: </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
