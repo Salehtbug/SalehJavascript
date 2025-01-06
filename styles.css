@@ -42,17 +42,18 @@ body {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 800px) {
     .menu-toggle {
         display: inline-block;
         position: absolute;
-        top: 10px;
+        /* top: 5px; */
         right: 20px;
     }
     
     .nav-links {
         display: none;
         flex-direction: column;
+
         gap: 10px;
         text-align: justify;
     }
@@ -126,3 +127,7 @@ body {
     background-color: #f1f1f1;
   }
   
+
+
+  /* --------------------------------------------------------------------------------------------- */
+

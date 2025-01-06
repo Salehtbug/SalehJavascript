@@ -1,0 +1,20 @@
+#jordan1 {
+    width: 400px;
+    height: 200px;
+    display: none;
+}
+
+#yemen1 {
+    width: 400px;
+    height: 200px;
+    display: none;
+}
+
+select {
+    font-size: larger;
+}
+
+#font {
+    font-size: 50px;
+    font-weight: bold;
+}
