@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reg.css" />
+</head>
+
+<body>
+    <form id="userInfo">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <span id="firstNameError" class="error-message"></span><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+        <span id="lastNameError" class="error-message"></span><br><br>
+
+        <label for="birthDate">Birth Date (dd/mm/yyyy):</label>
+        <input type="text" id="birthDate" name="birthDate">
+        <span id="birthDateError" class="error-message"></span><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error-message"></span><br><br>
+
+        <label for="confirmEmail">Confirm Email:</label>
+        <input type="email" id="confirmEmail" name="confirmEmail">
+        <span id="confirmEmailError" class="error-message"></span><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error-message"></span><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <span id="confirmPasswordError" class="error-message"></span><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="reg.js"></script>
+</body>
+
+</html>
