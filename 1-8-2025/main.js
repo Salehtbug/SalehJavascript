@@ -9,7 +9,6 @@ async function fetchUserData() {
     const data = await response.json();
     console.log("response Done");
     console.log(data);
-    outputDiv.innerHTML = ""
     
     
     const outputDiv = document.getElementById('output');
