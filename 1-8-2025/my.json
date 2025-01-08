@@ -1,0 +1,36 @@
+[
+    {   
+ "name" : "saleh",
+"Age" : 25,
+"Email" : "saleh.doe@example.com",
+"Profession" : "Software Engineer"
+},
+{
+
+    "name" : "Anas",
+    "Age" : 24,
+    "Email" : "anas@example.com",
+    "Profession": "Graphic Designer"
+},
+{
+
+    "name" : "Ammar",
+    "Age" : 28,
+    "Email" : "ammar@example.com",
+    "Profession": "Data analyst"
+},
+{
+
+    "name" : "Firas",
+    "Age" : 29,
+    "Email" : "firas@example.com",
+    "Profession": "Proudct Mangar"
+},
+{
+
+    "name" : "Bilal",
+    "Age" : 27,
+    "Email" : "bilal@example.com",
+    "Profession": "Markting Specialist"
+}
+]
